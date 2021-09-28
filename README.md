@@ -2,9 +2,9 @@
 
 Joomla 4.1 (this is speculative) will support templates with the ability to create child template. Actually the code already exists since 4.0 and this [Pull Request](https://github.com/joomla/joomla-cms/pull/30192), so this should be fairly safe right now. The UI is missing anything meaningful right now (Joomla version <4.1) so although the new mode is supported but is lacking the UI for managing them efficiently, hopefully this [Pull Request](https://github.com/joomla/joomla-cms/pull/32896) will be done and merged into 4.1. So, why do we need this convertor in the first place? Well, the new mode templates coming with some changes.
 
-## Breaking Changes
-So the new mode templates come with some breaking changes:
-- The manifest needs `<inheritable>1</inheritable>` to indicate the installer that this supports child templates
+## ~Breaking~ Changes
+So the new mode templates come with some ~breaking~ changes (for some these are improvments):
+- The manifest needs a field `<inheritable>1</inheritable>` to indicate the installer that this supports child templates
 - The static assets should be placed in the `/media/templates/(site || administrator)/(template name)`. Static assets are all those files that are directly fetched from the browser (eg.: `.css`, `.js`, `.png`... Basically the folders `css,js,images`).
 - The new mode should support `namespace` by default. At the time of righting this, the decision is not made yet but there's a [Pull Request](https://github.com/joomla/joomla-cms/pull/30816).
 
