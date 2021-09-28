@@ -1,0 +1,29 @@
+{
+  "name": "@dgrammatiko/convert-template",
+  "version": "1.0.0",
+  "description": "Convert old templates to new (with support for child templates)",
+  "main": "./index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgrammatiko/convert-template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgrammatiko/convert-template/issues"
+  },
+  "homepage": "https://github.com/dgrammatiko/convert-template#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.6",
+    "fs-extra": "^10.0.0",
+    "xml-js": "^1.6.11"
+  }
+}
