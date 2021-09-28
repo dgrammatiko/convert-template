@@ -1,13 +1,13 @@
 {
   "name": "@dgrammatiko/convert-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert old templates to new (with support for child templates)",
   "main": "index.js",
   "engines": {
     "node": "^10.16.0 || >=11.7.0"
   },
   "bin": {
-    "compress": "index.js"
+    "convert-template": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
