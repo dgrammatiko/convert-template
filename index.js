@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+"use strict";
 const fs = require('fs');
 const { extname } = require('path');
 const processZip = require('./src/process-zip.js');

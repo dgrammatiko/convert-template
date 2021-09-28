@@ -1,6 +1,6 @@
 {
   "name": "@dgrammatiko/convert-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert old templates to new (with support for child templates)",
   "main": "index.js",
   "engines": {
