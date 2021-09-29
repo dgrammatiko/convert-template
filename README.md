@@ -15,7 +15,7 @@ This tool will convert any template (that's not already supporting the new mode)
 
 You will need Node and npm installed in your machine and then runing either:
 
-`npx @dgrammatiko/convert-template templateFolder`
+`npx @dgrammatiko/convert-template ./templateFolder`
 
 or
 
